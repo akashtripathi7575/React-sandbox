@@ -42,7 +42,7 @@ body {
 }
 
 .task button {
-  background-color: red;
+  background-color: gray;
   color: white;
   border: none;
   height: 30px;
