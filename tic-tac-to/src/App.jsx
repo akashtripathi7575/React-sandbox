@@ -2,7 +2,19 @@ import { useState } from "react";
 
 function Square({ value, onSquareClick }) {
   return (
-    <button className="square" onClick={onSquareClick}>
+    <button className="square" onClick={onSquareClick} style={{
+        background: "#fff",
+        border: "1px solid #999",
+        fontSize: "24px",
+        fontWeight: "bold",
+        lineHeight: "34px",
+        height: "34px",
+        width: "34px",
+        padding: 0,
+        margin: "-1px 0 0 -1px",
+        textAlign: "center",
+        cursor: "pointer",
+      }}>
       {value}
     </button>
   );
